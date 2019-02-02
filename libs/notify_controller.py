@@ -6,10 +6,10 @@ from libs.logger import writelog  # log出力
 
 def send_line_notify(message, config):
     writelog('info','send_line_notify','start')
-    line_notify_token = config['LINE']['TOKEN'] # Line Notify TOKEN
+    line_notify_token = config['LINE']['TOKEN']
     line_notify_api = 'https://notify-api.line.me/api/notify'
     payload = {'message': message}
-    headers = {'Authorization': 'Bearer ' + line_notify_token}  # 発行したトークン
+    headers = {'Authorization': 'Bearer ' + line_notify_token}
     result = requests.post(line_notify_api, data=payload, headers=headers)
     writelog('info','send_line_notify','end' + str(result))
     return
