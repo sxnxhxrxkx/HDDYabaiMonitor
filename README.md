@@ -2,7 +2,7 @@
 ## 概要
 - ディスクの容量を調べて通知
 - 通知先は(Line Notify/Discord Webhook/slack webhook)を選べる
-- 通知先については、各通知先ごとに設定の事
+- 通知先については、各通知先ごとに設定要
 
 ## 環境
 - windows 10 64 bit
