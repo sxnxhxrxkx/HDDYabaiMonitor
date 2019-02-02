@@ -55,3 +55,9 @@ run_hdd_yabai_monitor.bat を実行
 [discord webhook通知](https://github.com/sxnxhxrxkx/HDDYabaiMonitor/blob/master/img/img_discord.png)
 - slack webhook通知
 [slack webhook通知](https://github.com/sxnxhxrxkx/HDDYabaiMonitor/blob/master/img/img_slack.png)
+- LINE Notify通知
+![LINE Notify通知](img/img_line.png)
+- discord webhook通知
+![discord webhook通知](img/img_discord.png)
+- slack webhook通知
+![slack webhook通知](img/img_slack.png)
