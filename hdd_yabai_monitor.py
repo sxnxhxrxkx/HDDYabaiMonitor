@@ -6,7 +6,6 @@ from datetime import datetime
 import sys, traceback
 # libs -------------------------------------------
 from libs.logger import writelog  # log出力
-#from libs.line_notify import send_notify # Line Notify 通知
 from libs.notify_controller import send_notify # 通知 (Line/discord/slack)
 
 # functions ------------------------------------------
