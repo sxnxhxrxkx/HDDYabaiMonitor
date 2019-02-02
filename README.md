@@ -48,13 +48,7 @@ yabai_loop_intervalmin = 15
 ### 実行方法
 run_hdd_yabai_monitor.bat を実行
 
-### 結果
-- LINE Notify通知
-[LINE Notify通知](https://github.com/sxnxhxrxkx/HDDYabaiMonitor/blob/master/img/img_line.png)
-- discord webhook通知
-[discord webhook通知](https://github.com/sxnxhxrxkx/HDDYabaiMonitor/blob/master/img/img_discord.png)
-- slack webhook通知
-[slack webhook通知](https://github.com/sxnxhxrxkx/HDDYabaiMonitor/blob/master/img/img_slack.png)
+### 実行結果
 - LINE Notify通知
 ![LINE Notify通知](img/img_line.png)
 - discord webhook通知
