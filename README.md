@@ -1,7 +1,7 @@
 # HDDYabaiMonitor
 ## 概要
 - ディスクの容量を調べて通知
-- 通知先は(Line Notify/Discord Webhook/slack webhook)を選べる
+- 通知先は(Line Notify/Discord Webhook/slack webhook/gmail)を選べる
 - 通知先については、各通知先ごとに設定要
 
 ## 環境
@@ -26,6 +26,13 @@ url = https://discordapp.com/api/webhooks/XXXXXXXXXXXXXXXXXX/XXXXXXXXXXXXXXXXXXX
 [slack]
 flag = True
 url = https://hooks.slack.com/services/XXXXXXXXX/XXXXXXXXX/XXXXXXXXXXXXXXXXXXXXXXXX
+
+[gmail]
+flag = True
+from_email = XXXXXXXXXXXXXXXXX@gmail.com
+from_password = XXXXXXXXXXXXXX
+to_email = XXXXXXXXXX@gmail.com
+subject = HDDやばい
 ``` 
 
 ### 監視先設定
@@ -55,3 +62,5 @@ run_hdd_yabai_monitor.bat を実行
 ![discord webhook通知](img/img_discord.png)
 - slack webhook通知
 ![slack webhook通知](img/img_slack.png)
+- gmail 通知
+![gmail 通知](img/img_gmail.png)
